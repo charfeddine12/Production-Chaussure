@@ -1,0 +1,19 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+        <hibernate-configuration>
+          <session-factory>
+            <mapping package="com.entities"/>
+            <mapping class="com.entities.Clientt"/>
+            <mapping class="com.entities.Commande"/>
+            <mapping class="com.entities.BonDeCommande"/>
+            <mapping class="com.entities.Facture"/>
+             <mapping class="com.entities.Fournisseur"/>
+              <mapping class="com.entities.Gamme"/>
+               <mapping class="com.entities.MatierePremiere"/>
+                <mapping class="com.entities.Produit"/>
+                 <mapping class="com.entities.Stock"/>
+            
+          </session-factory>
+        </hibernate-configuration>

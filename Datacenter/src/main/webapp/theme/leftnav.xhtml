@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:pe="http://primefaces.org/ui/extensions"
+                xmlns:p="http://primefaces.org/ui">
+
+    <aside class="main-sidebar">
+
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+
+            <!-- Sidebar user panel (optional) -->
+            <div class="user-panel">
+                <div class="pull-left image">
+                    <h:graphicImage  library="img" name="user2-160x160.jpg" class="img-circle" alt="User Image"/>
+                    
+                </div>
+
+            </div>
+
+            <ul class="sidebar-menu">
+
+                <!-- Optionally, you can add icons to the links -->
+
+                <li class="treeview">
+                    <a href="#"><i class="fa fa-link"></i> <span>Client</span> <i class="fa fa-angle-left pull-right"></i></a>
+                    <ul class="treeview-menu">
+                        <li><a href="/Datacenter/resources/Client/Ajouter.xhtml">Ajouter</a></li>
+                        <li><a href="/Datacenter/resources/Client/Modifier.xhtml">Modifier</a></li>
+                        <li><a href="/Datacenter/resources/Client/Chercher.xhtml">Chercher</a></li>
+                        <li><a href="/Datacenter/resources/Client/Consulter.xhtml">Consulter</a></li>
+                        <li><a href="/Datacenter/resources/Client/Supprimer.xhtml">Supprimer</a></li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#"><i class="fa fa-link"></i> <span>Commande</span> <i class="fa fa-angle-left pull-right"></i></a>
+                    <ul class="treeview-menu">
+                        <li><a href="/Datacenter/resources/Commande/Ajouter.xhtml">Ajouter</a></li>
+                        <li><a href="/Datacenter/resources/Commande/Modifier.xhtml">Modifier</a></li>
+                        <li><a href="/Datacenter/resources/Commande/Chercher.xhtml">Chercher</a></li>
+                        <li><a href="/Datacenter/resources/Commande/Consulter.xhtml">Consulter</a></li>
+                        <li><a href="/Datacenter/resources/Commande/Supprimer.xhtml">Supprimer</a></li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#"><i class="fa fa-link"></i> <span>Bon-Commande</span> <i class="fa fa-angle-left pull-right"></i></a>
+                    <ul class="treeview-menu">
+                        <li><a href="/Datacenter/resources/BonCommande/Ajouter.xhtml">Ajouter</a></li>
+                        <li><a href="/Datacenter/resources/BonCommande/Modifier.xhtml">Modifier</a></li>
+                        <li><a href="/Datacenter/resources/BonCommande/Chercher.xhtml">Chercher</a></li>
+                        <li><a href="/Datacenter/resources/BonCommande/Consulter.xhtml">Consulter</a></li>
+                        <li><a href="/Datacenter/resources/BonCommande/Supprimer.xhtml">Supprimer</a></li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#"><i class="fa fa-link"></i> <span>Gamme</span> <i class="fa fa-angle-left pull-right"></i></a>
+                    <ul class="treeview-menu">
+                        <li><a href="/Datacenter/resources/Gamme/Ajouter.xhtml">Ajouter</a></li>
+                        <li><a href="/Datacenter/resources/Gamme/Modifier.xhtml">Modifier</a></li>
+                        <li><a href="/Datacenter/resources/Gamme/Chercher.xhtml">Chercher</a></li>
+                        <li><a href="/Datacenter/resources/Gamme/Consulter.xhtml">Consulter</a></li>
+                        <li><a href="/Datacenter/resources/Gamme/Supprimer.xhtml">Supprimer</a></li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#"><i class="fa fa-link"></i> <span>Produit</span> <i class="fa fa-angle-left pull-right"></i></a>
+                    <ul class="treeview-menu">
+                        <li><a href="/Datacenter/resources/Produit/Ajouter.xhtml">Ajouter</a></li>
+                        <li><a href="/Datacenter/resources/Produit/Modifier.xhtml">Modifier</a></li>
+                        <li><a href="/Datacenter/resources/Produit/Chercher.xhtml">Chercher</a></li>
+                        <li><a href="/Datacenter/resources/Produit/Consulter.xhtml">Consulter</a></li>
+                        <li><a href="/Datacenter/resources/Produit/Supprimer.xhtml">Supprimer</a></li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#"><i class="fa fa-link"></i> <span>Matiere-Premiere</span> <i class="fa fa-angle-left pull-right"></i></a>
+                    <ul class="treeview-menu">
+                        <li><a href="/Datacenter/resources/MatierePremiere/Ajouter.xhtml">Ajouter</a></li>
+                        <li><a href="/Datacenter/resources/MatierePremiere/Modifier.xhtml">Modifier</a></li>
+                        <li><a href="/Datacenter/resources/MatierePremiere/Chercher.xhtml">Chercher</a></li>
+                        <li><a href="/Datacenter/resources/MatierePremiere/Consulter.xhtml">Consulter</a></li>
+                        <li><a href="/Datacenter/resources/MatierePremiere/Supprimer.xhtml">Supprimer</a></li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#"><i class="fa fa-link"></i> <span>Fournisseur</span> <i class="fa fa-angle-left pull-right"></i></a>
+                    <ul class="treeview-menu">
+                        <li><a href="/Datacenter/resources/Fournisseur/Ajouter.xhtml">Ajouter</a></li>
+                        <li><a href="/Datacenter/resources/Fournisseur/Modifier.xhtml">Modifier</a></li>
+                        <li><a href="/Datacenter/resources/Fournisseur/Chercher.xhtml">Chercher</a></li>
+                        <li><a href="/Datacenter/resources/Fournisseur/Consulter.xhtml">Consulter</a></li>
+                        <li><a href="/Datacenter/resources/Fournisseur/Supprimer.xhtml">Supprimer</a></li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#"><i class="fa fa-link"></i> <span>Facture</span> <i class="fa fa-angle-left pull-right"></i></a>
+                    <ul class="treeview-menu">
+                        <li><a href="/Datacenter/resources/Facture/Ajouter.xhtml">Ajouter</a></li>
+                        <li><a href="/Datacenter/resources/Facture/Modifier.xhtml">Modifier</a></li>
+                        <li><a href="/Datacenter/resources/Facture/Chercher.xhtml">Chercher</a></li>
+                        <li><a href="/Datacenter/resources/Facture/Consulter.xhtml">Consulter</a></li>
+                        <li><a href="/Datacenter/resources/Facture/Supprimer.xhtml">Supprimer</a></li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#"><i class="fa fa-link"></i> <span>Stock</span> <i class="fa fa-angle-left pull-right"></i></a>
+                    <ul class="treeview-menu">
+                        <li><a href="/Datacenter/resources/Stock/Ajouter.xhtml">Ajouter</a></li>
+                        <li><a href="/Datacenter/resources/Stock/Modifier.xhtml">Modifier</a></li>
+                        <li><a href="/Datacenter/resources/Stock/Chercher.xhtml">Chercher</a></li>
+                        <li><a href="/Datacenter/resources/Stock/Consulter.xhtml">Consulter</a></li>
+                        <li><a href="/Datacenter/resources/Stock/Supprimer.xhtml">Supprimer</a></li>
+                    </ul>
+                </li>
+
+            </ul><!-- /.sidebar-menu -->
+        </section>
+        <!-- /.sidebar -->
+    </aside>
+</ui:composition>

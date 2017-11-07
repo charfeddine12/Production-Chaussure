@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config
+    xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd"
+    version="2.2">
+<managed-bean>
+<managed-bean-name>client</managed-bean-name>
+<managed-bean-class>com.entities.Clientt</managed-bean-class>
+<managed-bean-scope>session</managed-bean-scope>
+</managed-bean>
+<managed-bean>
+<managed-bean-name>commande</managed-bean-name>
+<managed-bean-class>com.entities.Commande</managed-bean-class>
+<managed-bean-scope>session</managed-bean-scope>
+</managed-bean>
+<managed-bean>
+<managed-bean-name>bonDeCommande</managed-bean-name>
+<managed-bean-class>com.entities.BonDeCommande</managed-bean-class>
+<managed-bean-scope>session</managed-bean-scope>
+</managed-bean>
+<managed-bean>
+<managed-bean-name>facture</managed-bean-name>
+<managed-bean-class>com.entities.Facture</managed-bean-class>
+<managed-bean-scope>session</managed-bean-scope>
+</managed-bean>
+<managed-bean>
+<managed-bean-name>fournisseur</managed-bean-name>
+<managed-bean-class>com.entities.Fournisseur</managed-bean-class>
+<managed-bean-scope>session</managed-bean-scope>
+</managed-bean>
+<managed-bean>
+<managed-bean-name>gamme</managed-bean-name>
+<managed-bean-class>com.entities.Gamme</managed-bean-class>
+<managed-bean-scope>session</managed-bean-scope>
+</managed-bean>
+<managed-bean>
+<managed-bean-name>matierePremiere</managed-bean-name>
+<managed-bean-class>com.entities.MatierePremiere</managed-bean-class>
+<managed-bean-scope>session</managed-bean-scope>
+</managed-bean>
+<managed-bean>
+<managed-bean-name>produit</managed-bean-name>
+<managed-bean-class>com.entities.Produit</managed-bean-class>
+<managed-bean-scope>session</managed-bean-scope>
+</managed-bean>
+<managed-bean>
+<managed-bean-name>stock</managed-bean-name>
+<managed-bean-class>com.entities.Stock</managed-bean-class>
+<managed-bean-scope>session</managed-bean-scope>
+</managed-bean>
+</faces-config>

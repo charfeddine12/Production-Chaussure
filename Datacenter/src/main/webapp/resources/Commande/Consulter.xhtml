@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	template="../../theme/template.xhtml">
+	
+
+	<ui:define name="page-title">Welcome to Elegance</ui:define>
+
+	<ui:define name="content-header">Consulter la Liste des  Clients</ui:define>
+
+	<ui:define name="content">
+	<style>
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+</style>
+		<!-- Your Page Content Here -->
+
+		<section>
+
+		<table border="1">
+			<tr>
+			    <th style="color: #A9CCE3  ;">Id</th>
+				<th style="color: #A9CCE3  ;">Numero Commande</th>
+				<th style="color: #A9CCE3  ;">Quantite</th>
+				<th style="color: #A9CCE3  ;">Date-De-Commande</th>
+			</tr>
+			<tr>
+			    <td>1</td>
+				<td>0001</td>
+				<td>24</td>
+				<td>12/12/2017</td>
+			</tr>
+			<tr>
+			     <td>2</td>
+				<td>0011</td>
+				<td>24</td>
+				<td>12/12/2017</td>
+			</tr>
+			<tr>
+			    <td>3</td>
+				<td>0010</td>
+				<td>55</td>
+				<td>12/12/2017</td>
+			</tr>
+		
+		</table>
+		</section>
+		<p:editor rendered="flase" />
+	</ui:define>
+</ui:composition>
